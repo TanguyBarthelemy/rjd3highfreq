@@ -1,4 +1,4 @@
-# `rjd3highfreq`
+# {rjd3highfreq}
 
 [![R-CMD-check](https://github.com/rjdverse/rjd3highfreq/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rjdverse/rjd3highfreq/actions/workflows/R-CMD-check.yaml)
 [![lint](https://github.com/rjdverse/rjd3highfreq/actions/workflows/lint.yaml/badge.svg)](https://github.com/rjdverse/rjd3highfreq/actions/workflows/lint.yaml)
@@ -6,14 +6,14 @@
 [![GH Pages
 built](https://github.com/rjdverse/rjd3highfreq/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/rjdverse/rjd3highfreq/actions/workflows/pkgdown.yaml)
 
-rjd3highfreq provides functions for seasonal adjustment of
+{rjd3highfreq} provides functions for seasonal adjustment of
 high-frequency data displaying multiple, non integer periodicities.
 Pre-adjustment with extended airline model and Arima Model Based
 decomposition.
 
 ## Installation
 
-Running rjd3 packages requires **Java 17 or higher**. How to set up such
+Running rjd3 packages requires **Java 21 or higher**. How to set up such
 a configuration in R is explained
 [here](https://jdemetra-new-documentation.netlify.app/#Rconfig)
 
@@ -36,7 +36,7 @@ install.packages("rjd3highfreq", repos = c("https://rjdverse.r-universe.dev", "h
 
 ### Development version
 
-You can install the development version of **rjd3highfreq** from
+You can install the development version of **{rjd3highfreq}** from
 [GitHub](https://github.com/) with:
 
 ``` r
