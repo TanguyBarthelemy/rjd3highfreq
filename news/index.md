@@ -33,3 +33,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Update prints
 
 ### [2.0.0](https://github.com/rjdverse/rjd3highfreq/releases/tag/v2.0.0) - 2023-12-12
+
+#### Added
+
+- Add .jar added (related to
+  [v2.0.0](https://github.com/jdemetra/jdplus-incubator/releases/tag/v2.2.0))
