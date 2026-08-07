@@ -10,11 +10,11 @@ status](https://www.r-pkg.org/badges/version/rjd3highfreq)](https://CRAN.R-proje
 [![Mentioned in Awesome Official
 Statistics](https://awesome.re/mentioned-badge.svg)](https://github.com/SNStatComp/awesome-official-statistics-software)
 
-[![R-CMD-check](https://github.com/rjdverse/rjd3highfreq/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rjdverse/rjd3highfreq/actions/workflows/R-CMD-check.yaml)
-[![lint](https://github.com/rjdverse/rjd3highfreq/actions/workflows/lint.yaml/badge.svg)](https://github.com/rjdverse/rjd3highfreq/actions/workflows/lint.yaml)
+[![R-CMD-check](https://github.com/rjdverse/rjd3highfreq/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/rjdverse/rjd3highfreq/actions/workflows/R-CMD-check.yml)
+[![lint](https://github.com/rjdverse/rjd3highfreq/actions/workflows/lint.yml/badge.svg)](https://github.com/rjdverse/rjd3highfreq/actions/workflows/lint.yml)
 
 [![GH Pages
-built](https://github.com/rjdverse/rjd3highfreq/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/rjdverse/rjd3highfreq/actions/workflows/pkgdown.yaml)
+built](https://github.com/rjdverse/rjd3highfreq/actions/workflows/pkgdown.yml/badge.svg)](https://github.com/rjdverse/rjd3highfreq/actions/workflows/pkgdown.yml)
 <!-- badges: end -->
 
 {rjd3highfreq} provides functions for seasonal adjustment of
