@@ -1,39 +1,35 @@
-# Creates a java RegArima models based on an extended airline spec
+# Create a RegARIMA model based on an Extended Airline specification
 
-Creates a java RegArima models based on an extended airline spec
+This internal function constructs a Java RegArimaModel object by fitting
+an Extended Airline model.
 
 ## Usage
 
 ``` r
-.extended_airline_regarima(y, jspec, mean = FALSE, X = NULL)
+.extended_airline_regarima(series, jspec, mean = FALSE, xreg = NULL)
 ```
 
 ## Arguments
 
-- y:
+- series:
 
-  y
+  time series
 
 - jspec:
 
-  Java spec
+  A Java ExtendedAirlineSpec object, for instance created using
+  [`.extended_airline_spec`](https://rjdverse.github.io/rjd3highfreq/reference/dot-extended_airline_spec.md).
 
 - mean:
 
-  Mean correction (to be avoided)
+  Logical. If `TRUE`, includes a mean correction term in the model.
+  Default: `FALSE`.
 
-- X:
+- xreg:
 
-  Regression variables
+  Optional matrix of regression variables. Default: `NULL` (no
+  regressors).
 
 ## Value
 
-A Java RegArima model
-
-## Examples
-
-``` r
-jspec<-.extended_airline_spec(c(12))
-.extended_airline_regarima(rjd3toolkit::ABS$X0.2.09.10.M, jspec)
-#> [1] "Java-Object{jdplus.toolkit.base.core.regarima.RegArimaModel@3dfc5fb8}"
-```
+A Java object of class `RegArimaModel` from the JDemetra+ toolkit.
